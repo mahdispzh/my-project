@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/* ---------- فونت Morabba ---------- */
+/* فرض: پوشه‌ی fonts داخل public هست (public/fonts) */
+
+@font-face {
+  font-family: "Morabba";
+  src: url("/fonts/Morabba-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Morabba";
+  src: url("/fonts/Morabba-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Morabba";
+  src: url("/fonts/Morabba-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Morabba";
+  src: url("/fonts/Morabba-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Morabba";
+  src: url("/fonts/Morabba-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* ---------- رنگ‌ها و تنظیمات تم ---------- */
+@theme {
+  --color-background: #F5F0E4;
+  --color-primary: #183A2D;
+  --color-primary-light: #285342;
+  --color-secondary: #AEBEAA;
+  --color-muted: #DDE5D7;
+  --color-accent: #B87945;
+  --color-border: #71866F;
+
+  --font-sans: "Morabba", sans-serif;
+
+  /* سایه‌ی کارت‌ها */
+  --shadow-card: 0 8px 24px rgb(24 58 45 / 0.08);
+}
+
+/* ---------- استایل پایه ---------- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-background);
+}
