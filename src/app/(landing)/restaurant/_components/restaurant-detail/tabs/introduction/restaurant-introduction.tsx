@@ -3,7 +3,7 @@
 import RestaurantDetailCardSection from "../../detail-card/restaurant-detail-card-section";
 import { ICONS } from "@/src/shared/constants/dynamic-icon";
 import { Button } from "@/src/shared/ui";
-import Badge from "@/src/shared/ui/Badge/badge";
+import Badge from "@/src/shared/ui/badge/badge";
 import Image from "next/image";
 import { RestaurantIntroductionProps } from "./restaurant-introduction-type";
 

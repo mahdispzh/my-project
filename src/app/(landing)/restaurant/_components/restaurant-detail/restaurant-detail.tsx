@@ -1,7 +1,7 @@
 "use client";
 
 import { ICONS } from "@/src/shared/constants/dynamic-icon";
-import Badge from "@/src/shared/ui/Badge/badge";
+import Badge from "@/src/shared/ui/badge/badge";
 import { Tab } from "@/src/shared/ui/tab/tab";
 import { AnimatePresence, motion } from "motion/react";
 import Image from "next/image";

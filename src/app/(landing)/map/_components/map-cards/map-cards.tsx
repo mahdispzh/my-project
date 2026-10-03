@@ -2,7 +2,7 @@ import { ICONS } from "@/src/shared/constants/dynamic-icon";
 import mapCardRectangleShape from "@/src/shared/ui/assets/shapes/map-card-rectangle.svg";
 import mapCardsquerShape from "@/src/shared/ui/assets/shapes/map-card-squer.svg";
 import mapCardShape from "@/src/shared/ui/assets/shapes/map-card.svg";
-import Badge from "@/src/shared/ui/Badge/badge";
+import Badge from "@/src/shared/ui/badge/badge";
 import Image from "next/image";
 import { mapCardProps } from "./map-cards-type";
 

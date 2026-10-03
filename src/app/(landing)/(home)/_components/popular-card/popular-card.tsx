@@ -3,7 +3,7 @@ import { ICONS } from "@/src/shared/constants/dynamic-icon";
 import Image from "next/image";
 import popularCardShape from "@/src/shared/ui/assets/shapes/popular-card.svg";
 import popularCardImage from "../popular-card/popular-card-image.svg";
-import Badge from "../../../../../shared/ui/Badge/badge";
+import Badge from "../../../../../shared/ui/badge/badge";
 import { popularCardProps } from "./popular-card-types";
 
 const {

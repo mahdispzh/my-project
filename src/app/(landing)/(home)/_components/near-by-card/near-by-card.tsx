@@ -2,7 +2,7 @@
 import { ICONS } from "@/src/shared/constants/dynamic-icon";
 import nearByCardShape from "@/src/shared/ui/assets/shapes/near-by-card.svg";
 import Image from "next/image";
-import Badge from "../../../../../shared/ui/Badge/badge";
+import Badge from "../../../../../shared/ui/badge/badge";
 import { nearByCardProps } from "./near-by-card-types";
 
 const {

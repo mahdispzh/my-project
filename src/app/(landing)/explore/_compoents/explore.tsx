@@ -1,8 +1,8 @@
 "use client";
 
 import { ICONS } from "@/src/shared/constants/dynamic-icon";
-import Badge from "@/src/shared/ui/Badge/badge";
-import Input from "@/src/shared/ui/input/Input";
+import Badge from "@/src/shared/ui/badge/badge";
+import Input from "@/src/shared/ui/input/input";
 import ExploreCardsSection from "./explore-cards/explore-cards-section";
 
 const { searchIcon: SearchIcon, chevronDownIcon: ChevronDownIcon } = ICONS;

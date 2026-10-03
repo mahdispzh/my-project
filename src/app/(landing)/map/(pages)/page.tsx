@@ -1,5 +1,5 @@
 import { ICONS } from "@/src/shared/constants/dynamic-icon";
-import Input from "@/src/shared/ui/input/Input";
+import Input from "@/src/shared/ui/input/input";
 import MapCardSection from "../_components/map-cards/map-cards-section";
 import Map from "../_components/map/map-loader";
 import Main from "@/src/shared/ui/main/main";
