@@ -2,8 +2,8 @@
 import { ICONS } from "@/src/shared/constants/dynamic-icon";
 import Image from "next/image";
 import popularCardShape from "@/src/shared/ui/assets/shapes/popular-card.svg";
-import popularCardImage from "../popular-card/popular-card-image.svg"
-import Badge from "../../../../../shared/ui/Badge/Badge";
+import popularCardImage from "../popular-card/popular-card-image.svg";
+import Badge from "../../../../../shared/ui/Badge/badge";
 import { popularCardProps } from "./popular-card-types";
 
 const {
@@ -32,18 +32,17 @@ export default function PopularCard({
 
           {/* rating */}
           <div className="flex items-center">
-
-             <Badge
-            variant="ghost"
-            badgeSize="xs"
-            leftIcon={<StarIcon size="xs" color="text-primary" />}
-          >
-            {rating}
-          </Badge>
-          <span className="text-[9px] text-primary">({reviewsCount} نظر)</span>
-
+            <Badge
+              variant="ghost"
+              badgeSize="xs"
+              leftIcon={<StarIcon size="xs" color="text-primary" />}
+            >
+              {rating}
+            </Badge>
+            <span className="text-[9px] text-primary">
+              ({reviewsCount} نظر)
+            </span>
           </div>
-         
         </div>
         {/* category */}
         <div className="absolute right-50 top-4 z-20 flex flex-col items-center justify-center gap-1 text-white">
@@ -53,7 +52,12 @@ export default function PopularCard({
 
         {/* image */}
         <div className="absolute top-20 right-3 h-[220px] w-[225px]">
-          <Image src={popularCardImage} alt="" fill className="object-contain" />
+          <Image
+            src={popularCardImage}
+            alt=""
+            fill
+            className="object-contain"
+          />
         </div>
 
         {/* location */}

@@ -1,7 +1,7 @@
 "use client";
 
 import { ICONS } from "@/src/shared/constants/dynamic-icon";
-import Badge from "@/src/shared/ui/Badge/Badge";
+import Badge from "@/src/shared/ui/Badge/badge";
 import { Tab } from "@/src/shared/ui/tab/tab";
 import { AnimatePresence, motion } from "motion/react";
 import Image from "next/image";
@@ -57,11 +57,7 @@ export default function RestaurantDetail({
           className="flex flex-col"
         >
           {/* Restaurant Image */}
-          <Image
-            src={resturantDetailImage}
-            alt=""
-            className="h-auto w-full"
-          />
+          <Image src={resturantDetailImage} alt="" className="h-auto w-full" />
 
           <div className="px-3">
             {/* Restaurant Header */}
@@ -75,12 +71,7 @@ export default function RestaurantDetail({
                   <Badge
                     variant="ghost"
                     badgeSize="xs"
-                    leftIcon={
-                      <StarIcon
-                        size="xs"
-                        color="text-primary"
-                      />
-                    }
+                    leftIcon={<StarIcon size="xs" color="text-primary" />}
                   >
                     {rating}
                   </Badge>
@@ -92,28 +83,17 @@ export default function RestaurantDetail({
               </div>
 
               <div className="flex gap-2">
-                <ShareIcon
-                  size="md"
-                  color="text-secondary"
-                />
+                <ShareIcon size="md" color="text-secondary" />
 
-                <SaveIcon
-                  size="md"
-                  color="text-secondary"
-                />
+                <SaveIcon size="md" color="text-secondary" />
               </div>
             </div>
 
             {/* Category */}
             <div className="flex items-center gap-1">
-              <DotIcon
-                size="2xs"
-                color="text-primary"
-              />
+              <DotIcon size="2xs" color="text-primary" />
 
-              <p className="text-[12px] font-light text-primary">
-                {category}
-              </p>
+              <p className="text-[12px] font-light text-primary">{category}</p>
             </div>
 
             {/* Tabs */}
@@ -138,28 +118,20 @@ export default function RestaurantDetail({
                 transition={{ duration: 0.25 }}
               >
                 {activeTab === "introduction" && (
-                  <RestaurantIntroduction
-                    {...restaurantIntroductionData}
-                  />
+                  <RestaurantIntroduction {...restaurantIntroductionData} />
                 )}
 
                 {activeTab === "reviews" && (
                   <RestaurantReview
                     {...restaurantReviewData}
-                    onReviewClick={() =>
-                      setShowReviewForm(true)
-                    }
+                    onReviewClick={() => setShowReviewForm(true)}
                   />
                 )}
 
-                {activeTab === "gallery" && (
-                  <RestaurantGallery />
-                )}
+                {activeTab === "gallery" && <RestaurantGallery />}
 
                 {activeTab === "bloggers" && (
-                  <RestaurantBlogger
-                    {...RestaurantBloggerData}
-                  />
+                  <RestaurantBlogger {...RestaurantBloggerData} />
                 )}
               </motion.div>
             </AnimatePresence>

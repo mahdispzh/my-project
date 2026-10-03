@@ -1,6 +1,6 @@
 export * from "./button/Button";
 export * from "./button/default-button";
-export * from "./Badge/Badge";
+export * from "./Badge/badge";
 export * from "./breadcrumb/breadcrumb";
 export * from "./filter-chip/filter-chip";
 export * from "./search-input/Input";

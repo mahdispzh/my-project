@@ -1,7 +1,7 @@
 "use client";
 
 import { ICONS } from "@/src/shared/constants/dynamic-icon";
-import Badge from "@/src/shared/ui/Badge/Badge";
+import Badge from "@/src/shared/ui/Badge/badge";
 import Input from "@/src/shared/ui/search-input/Input";
 import ExploreCardsSection from "./explore-cards/explore-cards-section";
 
@@ -53,7 +53,7 @@ export default function ExplorePage() {
         ))}
       </div>
       <p className="text-[12px] text-primary font-light">۸ رستوران باز</p>
-      <ExploreCardsSection  />
+      <ExploreCardsSection />
     </div>
   );
 }

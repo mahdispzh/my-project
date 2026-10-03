@@ -1,7 +1,7 @@
 "use client";
 
 import { ICONS } from "@/src/shared/constants/dynamic-icon";
-import Badge from "@/src/shared/ui/Badge/Badge";
+import Badge from "@/src/shared/ui/Badge/badge";
 import Image from "next/image";
 import { exploreCardsProps } from "./explore-cards-types";
 

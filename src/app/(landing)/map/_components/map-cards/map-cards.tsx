@@ -2,7 +2,7 @@ import { ICONS } from "@/src/shared/constants/dynamic-icon";
 import mapCardRectangleShape from "@/src/shared/ui/assets/shapes/map-card-rectangle.svg";
 import mapCardsquerShape from "@/src/shared/ui/assets/shapes/map-card-squer.svg";
 import mapCardShape from "@/src/shared/ui/assets/shapes/map-card.svg";
-import Badge from "@/src/shared/ui/Badge/Badge";
+import Badge from "@/src/shared/ui/Badge/badge";
 import Image from "next/image";
 import { mapCardProps } from "./map-cards-type";
 
@@ -66,7 +66,10 @@ export default function MapCards({
       </div>
       {/* location */}
 
-      <div dir="rtl" className="absolute top-61 right-2 flex gap-1 items-center">
+      <div
+        dir="rtl"
+        className="absolute top-61 right-2 flex gap-1 items-center"
+      >
         <LocationIcon size="sm" color="text-secondary" />
         <p className="font-morabba text-[12px] font-light text-secondary">
           {location}
