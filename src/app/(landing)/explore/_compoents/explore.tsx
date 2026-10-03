@@ -2,7 +2,7 @@
 
 import { ICONS } from "@/src/shared/constants/dynamic-icon";
 import Badge from "@/src/shared/ui/Badge/badge";
-import Input from "@/src/shared/ui/search-input/Input";
+import Input from "@/src/shared/ui/input/Input";
 import ExploreCardsSection from "./explore-cards/explore-cards-section";
 
 const { searchIcon: SearchIcon, chevronDownIcon: ChevronDownIcon } = ICONS;

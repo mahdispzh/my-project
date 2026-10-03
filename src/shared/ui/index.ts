@@ -3,7 +3,7 @@ export * from "./button/default-button";
 export * from "./Badge/badge";
 export * from "./breadcrumb/breadcrumb";
 export * from "./filter-chip/filter-chip";
-export * from "./search-input/Input";
+export * from "./input/Input";
 export * from "./rating/rating";
 export * from "./section-heading/section-heading";
 export * from "./slider-dots/slider-dots";
