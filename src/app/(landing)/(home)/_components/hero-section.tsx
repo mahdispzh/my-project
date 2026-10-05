@@ -6,7 +6,9 @@ export default function HeroSection() {
       <div className="flex flex-col gap-2">
         <div className="flex">
           <LeafIcon className="text-accent" />
-           
+           <p className="text-accent">
+
+           </p>
           eyebrow
           
           </div>
