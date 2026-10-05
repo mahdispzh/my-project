@@ -1,26 +1,24 @@
 import { LeafIcon } from "@/src/shared/ui/icons/leaf-icon";
-export default function HeroSection() {
+import { HeroSectionProps } from "./hero-section-type";
+export default function HeroSection({
+  title,
+  description,
+  eyebrow,
+  stats,
+  image,
+}: HeroSectionProps) {
   return (
     <div className="flex flex-col justify-between gap-3">
       {/* title */}
       <div className="flex flex-col gap-2">
         <div className="flex">
           <LeafIcon className="text-accent" />
-           <p className="text-accent">
-
-           </p>
-          eyebrow
-          
-          </div>
-        title 
-        description
+          <p className="text-accent">{title}</p>
+        </div>
+        title description
         <div className="flex">
-            button
-            <div className="flex">
-              icon
-              button
-            </div>
-            
+          button
+          <div className="flex">icon button</div>
         </div>
         <div className="flex gap-3">
           <div className="flex flex-col">value lable</div>
