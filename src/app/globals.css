@@ -5,32 +5,39 @@
 
 @font-face {
   font-family: "Morabba";
-  src: url("/fonts/Morabba-Light.ttf") format("truetype");
+  src: url("../shared/ui/assets/fonts/Morabba-Light.ttf") format("truetype");
   font-weight: 300;
   font-display: swap;
 }
 @font-face {
   font-family: "Morabba";
-  src: url("/fonts/Morabba-Regular.ttf") format("truetype");
+  src: url("../shared/ui/assets/fonts/Morabba-Regular.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "Morabba";
-  src: url("/fonts/Morabba-Medium.ttf") format("truetype");
+  src: url("../shared/ui/assets/fonts/Morabba-Medium.ttf") format("truetype");
   font-weight: 500;
   font-display: swap;
 }
 @font-face {
   font-family: "Morabba";
-  src: url("/fonts/Morabba-SemiBold.ttf") format("truetype");
+  src: url("../shared/ui/assets/fonts/Morabba-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-display: swap;
 }
 @font-face {
   font-family: "Morabba";
-  src: url("/fonts/Morabba-Bold.ttf") format("truetype");
+  src: url("../shared/ui/assets/fonts/Morabba-Bold.ttf") format("truetype");
   font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Morabba";
+  src: url("../shared/ui/assets/fonts/Morabba-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
   font-display: swap;
 }
 

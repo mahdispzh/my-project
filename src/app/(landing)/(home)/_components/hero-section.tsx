@@ -12,8 +12,8 @@ export default function HeroSection({
       {/* title */}
       <div className="flex flex-col gap-2">
         <div className="flex">
-          <LeafIcon className="text-accent" />
-          <p className="text-accent">{title}</p>
+          <LeafIcon className="text-accent font-sans" />
+          <p className="text-accent">{eyebrow}</p>
         </div>
         title description
         <div className="flex">
