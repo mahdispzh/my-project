@@ -1,9 +1,15 @@
+import { LeafIcon } from "@/src/shared/ui/icons/leaf-icon";
 export default function HeroSection() {
   return (
     <div className="flex flex-col justify-between gap-3">
       {/* title */}
       <div className="flex flex-col gap-2">
-        <div className="flex">icon eyebrow</div>
+        <div className="flex">
+          <LeafIcon/>
+          icon 
+          eyebrow
+          
+          </div>
         title 
         description
         <div className="flex">
