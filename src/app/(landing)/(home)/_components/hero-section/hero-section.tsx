@@ -13,7 +13,7 @@ export default function HeroSection({
   image,
 }: HeroSectionProps) {
   return (
-    <div className="flex justify-between gap-3 p-5">
+    <div className="flex justify-between gap-3">
       {/* title */}
       <div className="flex flex-col gap-8 mt-8">
         <div className="flex">
