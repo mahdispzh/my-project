@@ -4,6 +4,8 @@ import FeaturesSection from "./(landing)/(home)/_components/features-section/fea
 import { FEATURES } from "./(landing)/(home)/_components/features-section/features-section-constant";
 import PopularDrinks from "./(landing)/(home)/_components/popular-drinks/popular-drinks";
 import { DRINKS } from "./(landing)/(home)/_components/popular-drinks/popular-drinks-constant";
+import RecommendedDishes from "./(landing)/(home)/_components/recommended-dishes/recommended-dishes";
+import { DISHES } from "./(landing)/(home)/_components/recommended-dishes/recommended-dishes-constant";
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
         description="کلاسیک‌ها و نوشیدنی‌های خاص برای هر سلیقه."
         drinks={DRINKS}
       />
+      <RecommendedDishes title="پیشنهاد ما برای امتحان" dishes={DISHES} />
     </main>
   );
 }

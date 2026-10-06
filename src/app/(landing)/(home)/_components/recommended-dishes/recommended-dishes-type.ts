@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 
-export interface DrinkItem {
+export interface DishItem {
   name: string;
   description: string;
   price: string;
