@@ -1,26 +1,21 @@
-// import Main from "@/src/shared/ui/main/main";
-// import CategoryCardMain from "../_components/category-card/category-card-main";
-// import EventCardMain from "../_components/event-card/event-card-main";
-// import NearByCardMain from "../_components/near-by-card/near-by-card-main";
-// import PopularCardMain from "../_components/popular-card/popular-card-main";
-// import BloggerCardMain from "@/src/shared/ui/blogger-card/blogger-card-main";
+import HeroSection from "@/src/app/(landing)/(home)/_components/hero-section/hero-section";
+import { HeroSectionData } from "../_components/hero-section/hero-section-constants";
+import FeaturesSection from "../_components/features-section/features-section";
+import { FEATURES } from "../_components/features-section/features-section-constant";
+import PopularDrinks from "../_components/popular-drinks/popular-drinks";
+import RecommendedDishes from "../_components/recommended-dishes/recommended-dishes";
+import ReservationSection from "../_components/reservation-section/reservation-section";
 
-// export default function HomePage() {
-//   // const {
-//   //   categories,
-//   //   eventCards,
-//   //   nearByCards,
-//   //   PopularCards,
-//   //   bloggerCards,
-//   // } = useHome();
 
-//   return (
-//     <Main>
-//       <CategoryCardMain />
-//       <EventCardMain/>
-//       <NearByCardMain/>
-//       <PopularCardMain/>
-//       <BloggerCardMain/>
-//     </Main>
-//   );
-// }
+
+export default function Home() {
+  return (
+    <main>
+      <HeroSection {...HeroSectionData} />
+      <FeaturesSection features={FEATURES} />
+      <PopularDrinks />
+      <RecommendedDishes />
+      <ReservationSection/>
+    </main>
+  );
+}
